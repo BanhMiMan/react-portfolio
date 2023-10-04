@@ -1,0 +1,168 @@
+.navbar {
+    background: rgb(30, 30, 30);
+    height: 5rem;
+    width: 100vw;
+    max-width: 75rem;
+    margin: 0 auto;
+    padding: 1rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    z-index: 3;
+}
+
+.logo {
+    object-fit: cover;
+    height:3rem;
+    height: 4rem;
+}
+
+.desktopMenuListItem {
+    margin: 1rem;
+    cursor: pointer;
+    /* font-size: medium; */
+}
+
+.desktopMenuListItem:hover {
+    color: #6d9bc3;
+    padding-bottom: 0.5rem;
+    border-bottom: 3px solid #6d9bc3;
+}
+
+.desktopMenuBtn {
+    background-color: aliceblue;
+    color: black;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 1rem;
+    border-radius: 2rem;
+    /* object-fit: cover; */
+}
+
+.desktopMenuImg {
+   object-fit: cover; 
+   height: 1rem;
+   width: 1rem;
+   margin: 1rem;
+}
+
+/* .desktopMenu{
+    text-align: center;
+} */
+
+.active {
+    color: #6d9bc3;
+    padding-bottom: 0.5rem;
+    border-bottom: 3px solid #6d9bc3;
+}
+
+.mobileMenu {
+    display: none;
+    object-fit: cover;
+    height: 1.8rem;
+}
+
+.navMenu {
+    position: absolute;
+    top: 4rem;
+    right: 2rem;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    padding: 0.5rem;
+    height: fit-content;
+    min-width: 15rem;
+    background: rgb(40, 40, 40);
+    border-radius: 1rem;
+}
+
+.listItem {
+    color: aliceblue;
+    padding: 0.5rem 3rem;
+    margin: 0.25rem;
+    background: rgb(30, 30, 30);
+}
+
+@media screen and (max-width:720px) {
+    .desktopMenu {
+        display: none;
+    }
+    .mobileMenu {
+        display: flex;
+    }
+    .desktopMenuBtn {
+        display: none;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+/* @media screen and (max-width:725px){
+    .logo {
+        height: 4vh;
+    }
+    .desktopMenuListItem {
+        font-size: small;
+        margin: 0.5rem;
+    }
+    .desktopMenuBtn {
+       height: 3rem; 
+       font-size: 2vw;
+    }
+    .desktopMenuImg {
+    margin: 0.5rem;
+    height: 1rem;
+    }
+}
+
+@media screen and (max-width:685px){
+    .logo {
+        height: 4vh;
+    }
+    .desktopMenuListItem {
+        font-size: small;
+    }
+}
+
+@media screen and (max-width:510px){
+    .logo {
+        height: 4vh;
+    }
+    .desktopMenuListItem {
+        font-size: small;
+        margin: 0.3rem;
+    }
+}
+
+@media screen and (max-width:480px){
+    .desktopMenuBtn {
+        height: 2.5rem; 
+        font-size: 2vw;
+     }
+     .desktopMenuImg {
+        margin: 1rem;
+        }
+        .desktopMenuListItem {
+            font-size: smaller;
+        }
+}
+
+@media screen and (max-width:320px){
+    .desktopMenuBtn {
+        
+     }
+     .desktopMenuImg {
+    
+        }
+} */
