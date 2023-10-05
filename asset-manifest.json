@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/react-portfolio/static/css/main.a3fd6b23.css",
+    "main.js": "/react-portfolio/static/js/main.62c70713.js",
+    "static/media/ORM.png": "/react-portfolio/static/media/ORM.918002369249009c9a00.png",
+    "static/media/ClikdOn.png": "/react-portfolio/static/media/ClikdOn.c8ca2aee9c7b937a660e.png",
+    "static/media/WeatherEvent.png": "/react-portfolio/static/media/WeatherEvent.670b7f799ebe120e0bd5.png",
+    "static/media/takumi.png": "/react-portfolio/static/media/takumi.f28df538bf5b9ebd64c4.png",
+    "static/media/ae86.png": "/react-portfolio/static/media/ae86.cbb72afabad0c09791ab.png",
+    "static/media/mongodbicon.png": "/react-portfolio/static/media/mongodbicon.c2f0b057315bfe95b17e.png",
+    "static/media/SQL.png": "/react-portfolio/static/media/SQL.5653138caf89cb4b4845.png",
+    "static/media/nodejsicon.png": "/react-portfolio/static/media/nodejsicon.4794df636373cea6ea06.png",
+    "static/media/cssicon.png": "/react-portfolio/static/media/cssicon.ff1af5b2ddda96065cae.png",
+    "static/media/React-icon.svg.png": "/react-portfolio/static/media/React-icon.svg.1e5639fdfd7c944093d3.png",
+    "static/media/instagram.png": "/react-portfolio/static/media/instagram.0bcd1dcb7d853c327af7.png",
+    "index.html": "/react-portfolio/index.html",
+    "main.a3fd6b23.css.map": "/react-portfolio/static/css/main.a3fd6b23.css.map",
+    "main.62c70713.js.map": "/react-portfolio/static/js/main.62c70713.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a3fd6b23.css",
+    "static/js/main.62c70713.js"
+  ]
+}
